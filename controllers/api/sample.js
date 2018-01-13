@@ -1,7 +1,4 @@
-'use strict';
-
 module.exports = (router) => {
-
   /**
    * @swagger
    * /api/sample:
@@ -15,13 +12,10 @@ module.exports = (router) => {
    */
 
   router.get('/', (req, res) => {
-
-    let data = {
-      'success': true
+    const data = {
+      success: true,
     };
 
     res.json(data);
-
   });
-
 };

@@ -1,5 +1,3 @@
-'use strict';
-
 const nconf = require('nconf');
 const path = require('path');
 
@@ -9,12 +7,11 @@ nconf
     'DOCS_USER',
     'DOCS_PASSWORD',
     'NODE_ENV',
-    'PORT'
+    'PORT',
   ])
-  // Config file
   .file({ file: path.join(__dirname, 'config.json') })
   .defaults({
-    PORT: 3000
+    PORT: 3000,
   });
 
 module.exports = nconf;
