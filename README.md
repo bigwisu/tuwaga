@@ -4,7 +4,7 @@ This starter kit aims to be a bare bone starting point for building a monolithic
 
 ## Why build a monolith?
 
-These days every one is building microservices, for a new business it may be too overwelming specially if you code and do business all by your self.. Eventhough we are a monolith, our code is separated between backend and web ui, enabling easy scale once you get funded..
+These days every one is building microservices, for a new business it may be too overwhelming specially if you code and do business all by your self.. Eventhough we are a monolith, our code is separated between backend and web ui enabling easy scale once you get funded..
 
 ## What's in the Box
 
