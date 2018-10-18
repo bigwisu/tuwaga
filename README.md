@@ -1,10 +1,10 @@
 # JavaScript Devel Starter Kit
 
-This starter kit aims to be a bare bone starting point for building a monolithic NodeJS App, with separated backend APIs and a rich web user interface...
+Originally this starter kit was intended for building a monolith node.js apps. It is a bare bone starting point, with separated backend APIs and a rich web user interface. Now in my workplace backend API portion is intensively used for building Microservices.
 
-## Why build a monolith?
+## Why can be built?
 
-These days every one is building microservices, for a new business it may be too overwhelming specially if you code and do business all by your self.. Eventhough we are a monolith, our code is separated between backend and web ui enabling easy scale once you get funded..
+An easy to understand Microservice, documentation capability included.
 
 ## What's in the Box
 
