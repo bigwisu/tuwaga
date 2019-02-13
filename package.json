@@ -6,7 +6,7 @@
     "start": "node app.js",
     "start:dev": "npm-run-all --parallel security-check start lint:watch",
     "start:share": "npm-run-all --parallel start:dev localtunnel",
-    "security-check": "nsp check",
+    "security-check": "npm audit",
     "localtunnel": "lt --port 3000",
     "lint": "esw --color",
     "lint:watch": "npm run lint -- --watch",
@@ -54,7 +54,6 @@
     "localtunnel": "^1.8.3",
     "mocha": "^4.1.0",
     "npm-run-all": "^4.1.2",
-    "nsp": "^3.1.0",
     "prettier": "^1.10.2",
     "supertest": "^3.0.0"
   }
