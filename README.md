@@ -2,7 +2,7 @@
 
 Originally this starter kit was intended for building a monolith node.js apps. It is a bare bone starting point, with separated backend APIs and a rich web user interface. Now in my workplace backend API portion is intensively used for building Microservices.
 
-## Why can be built?
+## What can be built?
 
 An easy to understand Microservice, documentation capability included.
 
